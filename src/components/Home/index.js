@@ -2,7 +2,9 @@ import LogoTitle from '../../assets/images/logo-s.png';
 import {Link} from 'react-router-dom';
 import './index.scss';
 import {useEffect, useState} from 'react';
+import Logo from './Logo';
 import AnimatedLetters from '../AnimatedLetters';
+import Loader from 'react-loaders';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -10,12 +12,13 @@ const Home = () => {
     const jobArray = ['w','e','b','d','e','v', '.']
 
     useEffect(()=> {
-        return setTimeout(() => {
-            setLetterClass('text-animate-hover')
-        },4000)
+       setTimeout(() => {
+           setLetterClass('text-animate-hover')
+        },4000);
     },[])
 
     return(
+        <>
         <div className = "container home-page">
             <div className = "text-zone">
                <h1>
@@ -37,8 +40,10 @@ const Home = () => {
                <h2>Frontend Developer/JavaScript Expert/ Youtuber</h2>
                <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
-
+           <Logo/>
         </div>
+        <Loader type = "pacman"/>
+        </>
     );
 
 }
