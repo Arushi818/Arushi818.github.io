@@ -34,19 +34,19 @@
   
     .face1 {
       transform: translateZ(100px);
-      color: #dd0031;
+      color: #efd81d;
     }
     .face2 {
       transform: rotateY(90deg) translateZ(100px);
-      color: #f06529;
+      color: #efd81d;
     }
     .face3 {
       transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-      color: #28a4d9;
+      color: #efd81d;
     }
     .face4 {
       transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-      color: #5ed4f4;
+      color: #efd81d;
     }
     .face5 {
       transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
@@ -54,7 +54,7 @@
     }
     .face6 {
       transform: rotateX(-90deg) translateZ(100px);
-      color: #ec4d28;
+      color: #efd81d;
     }
   }
   
