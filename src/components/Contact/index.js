@@ -22,7 +22,7 @@ const Contact = () =>{
             'gmail',
             'template_0y5zndl',
             refForm.current,
-            'BNTjAMsvAaz9jceHg'
+            'pCuVuOCg2XtgDk2ZUszIy'
         )
         .then(
             () =>{
@@ -82,10 +82,8 @@ const Contact = () =>{
              <br/>
              Canada,
              <br/>
-             5A McLoughlan st,A1E 4G3
-             <br/>
              St.John's<br/>
-             <span>admoneeram@mun.ca</span>
+             <span>admoneeram[at]mun.ca</span>
             </div>
         </div>
         <Loader type = "pacman"/>
