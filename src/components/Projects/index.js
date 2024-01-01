@@ -31,7 +31,7 @@ const Projects = () => {
             My projects range from fun little games to paper-based studies, passing through programs incorporating algorithmic techniques for AI. Those projects include solo works as well as group works.
           </p>
           <p>
-            Since my major focuses on smart systems, I am mostly interested in AI, cybersecurity and prefer more practical projects. However, also greatly enjoy building simple mini games as a hobby!
+            Since my major focuses on smart systems, I am primarily interested in AI, cybersecurity and prefer more practical projects. However, I also greatly enjoy building simple mini games as a hobby!
           </p>
         </div>
         <div className="cards-container">
