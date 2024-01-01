@@ -3,14 +3,14 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useState, useRef,useEffect } from 'react'
 import emailjs from '@emailjs/browser'
-
+import config from '../../config'
 
 const Contact = () =>{
     const [letterClass, setLetterClass] = useState('text-animate')
     const refForm = useRef()
-    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-    const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-    const userId = process.env.REACT_APP_EMAILJS_USER_ID;
+    const serviceId = config.REACT_APP_EMAILJS_SERVICE_KEY;
+    const templateId = config.REACT_APP_EMAILJS_TEMPLATE_KEY;
+    const userId = config.REACT_APP_EMAILJS_USER_KEY;
 
 
     useEffect(()=> {
@@ -25,10 +25,10 @@ const Contact = () =>{
 
         emailjs
             .sendForm(
-                'service_kfhe6wg',
-                'template_0y5zndl',
+                serviceId,
+                templateId,
                 refForm.current,
-                'BNTjAMsvAaz9jceHg'
+                userId
         )
         .then(
             () =>{
