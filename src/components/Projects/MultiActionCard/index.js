@@ -20,55 +20,55 @@ const cardData = [
     title: 'Knight\'s Tour',
     description: 'A chess game developped with java. This simple game was developped as part of my course.',
     image: knightsTour,
-    link: 'https://github.com/Arushi818/Project_', // Adjust the link to your route
+    link: 'https://github.com/Arushi818/Knight-s-Tour-Game', 
   },
   {
     title: 'Can\'t Stop',
     description: 'A board game developped with java. This project was a group project for my software engineering course.',
     image: cantStop,
-    link: 'https://github.com/Arushi818/Project_', // Adjust the link to your route
+    link: 'https://github.com/Arushi818/can-t-stop-game', 
   },
   {
     title: 'Password Manager',
     description: 'A personal project to encrypt and store passwords in a database.',
     image: passwordManager,
-    link: 'https://github.com/Arushi818/Project_', // Adjust the link to your route
+    link: 'https://github.com/Arushi818/Password-Manager',
   },
   {
     title: 'Image Dehazing',
     description: 'A paper based project that replicates the pioneer paper on dark-channel prior image dehazing.',
     image:imageDehazing,
-    link: 'https://github.com/Arushi818/Project_', // Adjust the link to your route
+    link: 'https://github.com/Arushi818/Image-Dehazing', 
   },
   {
     title: 'Portfolio Website',
     description: 'A portfolio website to introduce myself and showcase my work so far!',
     image: portfolioWebsite,
-    link: 'https://github.com/Arushi818/Project_', // Adjust the link to your route
+    link: 'https://github.com/Arushi818/PortfolioWebsite', 
   },
   {
     title: 'Simple game',
     description: 'A simple game devised in my free time to explore OpenCV library',
     image: minigame,
-    link: 'https://github.com/Arushi818/Project_', // Adjust the link to your route
+    link: 'https://github.com/Arushi818/simple-game', 
   },
   {
     title: 'Path-finding AI',
     description: 'Path-finding algorithms using AI search technique, namely A* algorithm',
     image: labyrinth,
-    link: 'https://github.com/Arushi818/Project_', // Adjust the link to your route
+    link: 'https://github.com/Arushi818/Path-finding-AI',
   },
   {
     title: 'Connect-4',
     description: 'Connect-4 game that includes several fine tuning options and the option to play against an AI',
     image: connect4,
-    link: 'https://github.com/Arushi818/Project_', // Adjust the link to your route
+    link: 'https://github.com/Arushi818/Connect-4', 
   },
   {
     title: 'Self-solving Sudoku',
     description: 'Self solving sudoku game that uses evolutionary algorithm to solve the game.',
     image: sudoku,
-    link: 'https://github.com/Arushi818/Project_', // Adjust the link to your route
+    link: 'https://github.com/Arushi818/self-solving-sudoku',
   }
 ];
 
@@ -80,7 +80,7 @@ const MultiActionAreaCard = () => {
           <CardActionArea style={{ marginTop: -3 }}>
             <CardMedia
               component="img"
-              height="80" // Adjust the height as needed
+              height="80" 
               image={card.image}
               alt={`Card ${index + 1}`}
             />
