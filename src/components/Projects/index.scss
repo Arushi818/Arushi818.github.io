@@ -1,45 +1,4 @@
-.project-page {
-    .text-zone {
-      position: absolute;
-      left: 10%;
-      top: 50%;
-      transition: translateY(-50%);
-      width: 40%;
-      max-height: 90%;
-      color: #ffff;
-      font-size: 15px;
-    }
-  
-    h1 {
-      color: #ffd700;
-      font-size: 53px;
-      margin: 0;
-      font-family: 'Coolvetica';
-      font-weight: 400;
-  
-      &::before {
-        content: '<h1>';
-        font-family: 'La Belle Aurore';
-        color: #ffd700;
-        font-size: 18px;
-        position: absolute;
-        margin-top: -40px;
-        left: 15px;
-        opacity: 0.6;
-      }
-  
-      &::after {
-        content: '<h1/>';
-        font-family: 'La Belle Aurore';
-        color: #ffd700;
-        font-size: 18px;
-        position: absolute;
-        margin-top: 18px;
-        margin-left: 20px;
-        animation: fadeIn 1s 1.7s backwards;
-        opacity: 0.6;
-      }
-    }
+
   
     .cards-container {
       position: fixed;
@@ -66,5 +25,6 @@
         }
       }
     }
-  }
+    
+
   

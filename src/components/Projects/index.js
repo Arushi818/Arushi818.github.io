@@ -9,8 +9,8 @@ const Projects = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      setLetterClass("text-animate-hover");
-    }, 3000);
+      setLetterClass("text-animate-hover")
+    }, 4000);
   }, []);
 
   return (
