@@ -18,55 +18,55 @@ import sudoku from '../../../assets/images/sudoku.avif';
 const cardData = [
   {
     title: 'Knight\'s Tour',
-    description: 'A chess game developped with java. This simple game was developped as part of my course.',
+    description: 'A game based on chess, developped using Java. The aim of this game is to visit every square once, using just the Knight.',
     image: knightsTour,
     link: 'https://github.com/Arushi818/Knight-s-Tour-Game', 
   },
   {
     title: 'Can\'t Stop',
-    description: 'A board game developped with java. This project was a group project for my software engineering course.',
+    description: 'This board game was a group work for my software engineering course. The game can be played alone or with other players!',
     image: cantStop,
     link: 'https://github.com/Arushi818/can-t-stop-game', 
   },
   {
     title: 'Password Manager',
-    description: 'A personal project to encrypt and store passwords in a database.',
+    description: 'A personal project to encrypt and store passwords in a database.This project explores encryption and Mongodb.',
     image: passwordManager,
     link: 'https://github.com/Arushi818/Password-Manager',
   },
   {
     title: 'Image Dehazing',
-    description: 'A paper based project that replicates the pioneer paper on dark-channel prior image dehazing.',
+    description: 'A project that replicates the pioneer paper on image dehazing using dark-channel prior. This project involved mainly Python.',
     image:imageDehazing,
     link: 'https://github.com/Arushi818/Image-Dehazing', 
   },
   {
     title: 'Portfolio Website',
-    description: 'A portfolio website to introduce myself and showcase my work so far!',
+    description: 'A portfolio website to introduce myself and showcase my work so far. This project helped me learn React!',
     image: portfolioWebsite,
     link: 'https://github.com/Arushi818/PortfolioWebsite', 
   },
   {
     title: 'Simple game',
-    description: 'A simple game devised in my free time to explore OpenCV library',
+    description: 'A simple game devised to explore OpenCV library.This project was developped using Python. I intend to refine this game soon!',
     image: minigame,
     link: 'https://github.com/Arushi818/simple-game', 
   },
   {
     title: 'Path-finding AI',
-    description: 'Path-finding algorithms using AI search technique, namely A* algorithm',
+    description: 'This project showcases path-finding algorithms using search methods, namely A* algorithm. This project mainly involves Javascript.',
     image: labyrinth,
     link: 'https://github.com/Arushi818/Path-finding-AI',
   },
   {
     title: 'Connect-4',
-    description: 'Connect-4 game that includes several fine tuning options and the option to play against an AI',
+    description: 'Connect-4 game that includes several fine tuning options and the option to play against an AI.This project mainly involves Javascript.',
     image: connect4,
     link: 'https://github.com/Arushi818/Connect-4', 
   },
   {
     title: 'Self-solving Sudoku',
-    description: 'Self solving sudoku game that uses evolutionary algorithm to solve the game.',
+    description: 'Self solving sudoku game that uses evolutionary algorithm to solve the game.This project mainly involves Javascript.',
     image: sudoku,
     link: 'https://github.com/Arushi818/self-solving-sudoku',
   }
@@ -85,7 +85,7 @@ const MultiActionAreaCard = () => {
               alt={`Card ${index + 1}`}
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography gutterBottom variant="h6" component="div">
                 {card.title}
               </Typography>
               <Typography variant="body2" color="text.secondary">
