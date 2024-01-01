@@ -18,7 +18,11 @@ const Projects = () => {
       <div className="container project-page">
         <div className="text-zone">
           <h1>
-            <AnimatedLetters letterClass={letterClass} strArray={["M", "y", " ", "P", "r", "o", "j", "e", "c", "t", "s", "!"]} idx={15} />
+            <AnimatedLetters 
+            letterClass={letterClass} 
+            strArray={["M", "y", " ", "P", "r", "o", "j", "e", "c", "t", "s", "!"]} 
+            idx={15} 
+            />
           </h1>
           <p>
             Here are some of the projects that I have worked on (so far!) during my journey as an undergraduate student!

@@ -70,7 +70,6 @@ const cardData = [
     image: sudoku,
     link: 'https://github.com/Arushi818/Project_', // Adjust the link to your route
   }
-  // Add more card data as needed
 ];
 
 const MultiActionAreaCard = () => {
@@ -96,7 +95,7 @@ const MultiActionAreaCard = () => {
           </CardActionArea>
           <CardActions>
             <Link to={card.link}>
-              <Button size="small" color="primary">
+              <Button size="small" color="info">
                 Learn More
               </Button>
             </Link>

@@ -59,7 +59,7 @@ const Contact = () =>{
                             <li className = 'half'>
                                <input type="text" name="name" placeholder="Name" required/>
                             </li>
-                            <li email = 'half'>
+                            <li className = 'half'>
                                <input type="email" name="email" placeholder="Email" required/>
                             </li>
 
@@ -76,14 +76,6 @@ const Contact = () =>{
                     </form>
                 </div>
 
-            </div>
-            <div className = 'info-map'>
-             Arushi Moneeram
-             <br/>
-             Canada,
-             <br/>
-             St.John's<br/>
-             <span>admoneeram[at]mun.ca</span>
             </div>
         </div>
         <Loader type = "pacman"/>

@@ -1,7 +1,9 @@
 .contact-form {
-  width: 100%;
+  width: 48%;
   margin-top: 20px;
-  right: 0;
+  position:fixed;
+  right: 2%;
+  bottom:0;
 
   ul {
     padding: 0;
@@ -22,8 +24,8 @@
     }
 
     li.half {
-      width: 49%;
-      margin-left: 2%;
+      width: 100%;
+      margin-left: 0%;
       float: left;
       clear: none;
 

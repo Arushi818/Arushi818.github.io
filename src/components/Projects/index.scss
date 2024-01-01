@@ -1,97 +1,70 @@
-
-
-.project-page{
-    .text-zone{
+.project-page {
+    .text-zone {
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      transition: translateY(-50%);
+      width: 40%;
+      max-height: 90%;
+      color: #ffff;
+      font-size: 15px;
+    }
+  
+    h1 {
+      color: #ffd700;
+      font-size: 53px;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+  
+      &::before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore';
+        color: #ffd700;
+        font-size: 18px;
         position: absolute;
-        left: 10%;
-        top: 50%;
-        transition:translateY(-50%);
-        width: 40%;
-        max-height: 90%;
-        color: #ffff;
-        font-size: 15px;
-    }
-
-    h1{
-        color:#ffff;
-        font-size: 53px;
-        margin: 0;
-        font-family: 'Coolvetica';
-        font-weight: 400;
-
-        &::before{
-            content:'<h1>';
-            font-family:'La Belle Aurore';
-            color: #ffd700;
-            font-size: 18px;
-            position: absolute;
-            margin-top: -40px;
-            left: 15px;
-            opacity: 0.6;
-        }
-
-        &::after{
-            content: '<h1/>';
-            font-family: 'La Belle Aurore';
-            color: #ffd700;
-            font-size: 18px;
-            position: absolute;
-            margin-top: 18px;
-            margin-left: 20px;
-            animation: fadeIn 1s 1.7s backwards;
-            opacity: 0.6;
-        }
-        img{
-            width: 32px;
-            margin-left: 20px;
-            opacity: 0;
-            height: auto;
-            animation: rotateIn 1s linear both;
-            animation-delay: 1.4s;
-        }
-    }
-    .cards-container {
-        position: fixed;
-        right: 0;
-        top: 0;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); 
-        grid-template-rows: repeat(3, 1fr); 
-        column-gap: 10px;
-        row-gap: 10px;
-        margin-top: 10px;
-        margin-right: 100px;
+        margin-top: -40px;
+        left: 15px;
+        opacity: 0.6;
       }
-    
-}
-
-h2{
-    color:white;
-    margin-top: 20px;
-    font-weight: 400;
-    font-size: 11px;
-    font-family: sans-serif;
-    letter-spacing: 3px;
-    animation: fadeIn 1s 1.8s backwards;
-}
-
-.flat-button{
-    color:#ffd700;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 40px;
-    font-family: sans-serif;
-    text-decoration: none;
-    padding: 10px, 18px;
-    border: 1px solid #ffd700;
-    margin-top: 25px;
-    float: left;
-    animation: fadeIn 1s 1.8s backwards;
-    white-space: nowrap;
-
-    &:hover{
-        background: #ffd700;
-        color: #ffff;
+  
+      &::after {
+        content: '<h1/>';
+        font-family: 'La Belle Aurore';
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 20px;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+      }
     }
-
-}
+  
+    .cards-container {
+      position: fixed;
+      right: 0;
+      top: 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      column-gap: 10px;
+      row-gap: 10px;
+      margin-top: 10px;
+      margin-right: 100px;
+  
+      .MuiCard-root {
+        width: 150px;
+        margin-bottom: 2px;
+  
+        .MuiButton-root {
+          background-color: #eae8e8ab;
+  
+          &:hover {
+            background-color:#ffd700;
+          }
+        }
+      }
+    }
+  }
+  

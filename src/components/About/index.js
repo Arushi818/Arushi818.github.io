@@ -33,13 +33,7 @@ const About = () => {
                </p>
                <p>
                I am quiet but friendly, naturally curious and always working on refining my skills in the field.
-               I also have a passion for painting and have been a swimmer for 13 years!
-               </p>
-
-               <p>
-                If I need to define myself in one sentence that would be a friendly person,
-                a very grateful daughter,  a nature-loving person, a passionnated painter and 
-                tech enthusiast!!
+               I also have a passion for painting and swimming!
                </p>
             </div>
      
