@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Loader from "react-loaders";
-import MultiActionAreaCard from "./MultiActionCard"; // Update the path accordingly
+import MultiActionAreaCard from "./MultiActionCard"; 
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 
