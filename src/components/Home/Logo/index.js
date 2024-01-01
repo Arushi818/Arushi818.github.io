@@ -1,5 +1,5 @@
 import './index.scss';
-import LogoS from '../../../assets/images/logo-s.png'
+import bitmoji from '../../../assets/images/bitmoji.png'
 import {useEffect, useRef} from 'react'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 import gsap from 'gsap-trial'
@@ -41,7 +41,7 @@ const Logo = () => {
         <div className = 'logo-container' ref={bgRef}>
            <img ref = {solidLogoRef} 
            className = 'solid-logo'
-            src = {LogoS}
+            src = {bitmoji}
              alt = "dummy"
             />
            <svg

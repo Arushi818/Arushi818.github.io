@@ -8,6 +8,10 @@ import emailjs from '@emailjs/browser'
 const Contact = () =>{
     const [letterClass, setLetterClass] = useState('text-animate')
     const refForm = useRef()
+    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+    const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+    const userId = process.env.REACT_APP_EMAILJS_USER_ID;
+
 
     useEffect(()=> {
         setTimeout(() => {
@@ -17,12 +21,14 @@ const Contact = () =>{
 
      const sendEmail = (e) => {
         e.preventDefault()
+        console.log(serviceId)
 
-        emailjs.sendForm(
-            'gmail',
-            'template_0y5zndl',
-            refForm.current,
-            'pCuVuOCg2XtgDk2ZUszIy'
+        emailjs
+            .sendForm(
+                'service_kfhe6wg',
+                'template_0y5zndl',
+                refForm.current,
+                'BNTjAMsvAaz9jceHg'
         )
         .then(
             () =>{
