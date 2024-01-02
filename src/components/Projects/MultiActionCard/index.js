@@ -44,7 +44,7 @@ const cardData = [
     title: 'Portfolio Website',
     description: 'A portfolio website to introduce myself and showcase my work so far. This project helped me learn React!',
     image: portfolioWebsite,
-    link: 'https://github.com/Arushi818/OnlinePortfolio', 
+    link: 'https://github.com/Arushi818/Arushi818.github.io', 
   },
   {
     title: 'Simple game',
