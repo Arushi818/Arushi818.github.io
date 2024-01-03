@@ -42,22 +42,22 @@ const About = () => {
             <div className = 'stage-cube-cont'>
                <div className = 'cubespinner'>
                    <div className = 'face1'>
-                        <FontAwesomeIcon icon={faGithub} color = '#DD0031'/>
+                        <FontAwesomeIcon icon={faGithub} color = '#4d4d4e'/>
                    </div>
                    <div className = 'face2'>
-                        <FontAwesomeIcon icon={faPython} color = '#DD0031'/>
+                        <FontAwesomeIcon icon={faPython} color = '#4d4d4e'/>
                    </div>
                    <div className = 'face3'>
-                        <FontAwesomeIcon icon={faJava} color = '#DD0031'/>
+                        <FontAwesomeIcon icon={faJava} color = '#4d4d4e'/>
                    </div>
                    <div className = 'face4'>
-                        <FontAwesomeIcon icon={faJs} color = '#DD0031'/>
+                        <FontAwesomeIcon icon={faJs} color = '#4d4d4e'/>
                    </div>
                    <div className = 'face5'>
-                        <FontAwesomeIcon icon={faReact} color = '#DD0031'/>
+                        <FontAwesomeIcon icon={faReact} color = '#4d4d4e'/>
                    </div>
                    <div className = 'face6'>
-                        <FontAwesomeIcon icon={faC} color = '#DD0031'/>
+                        <FontAwesomeIcon icon={faC} color = '#4d4d4e'/>
                    </div>
                </div>
         </div>
