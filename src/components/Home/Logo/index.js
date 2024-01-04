@@ -1,7 +1,7 @@
 import './index.scss';
 import bitmoji from '../../../assets/images/bitmoji.png'
 import {useEffect, useRef} from 'react'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
+//import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 import gsap from 'gsap-trial'
 
 const Logo = () => {
