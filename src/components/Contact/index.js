@@ -3,7 +3,6 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useState, useRef,useEffect } from 'react'
 import emailjs from '@emailjs/browser'
-//import config from '../../config'
 
 const Contact = () =>{
     const [letterClass, setLetterClass] = useState('text-animate')
