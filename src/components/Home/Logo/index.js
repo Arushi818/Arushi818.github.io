@@ -11,7 +11,7 @@ const Logo = () => {
     const solidLogoRef = useRef();
 
     useEffect(() =>{
-        gsap.registerPlugin(DrawSVGPlugin)
+        // gsap.registerPlugin(DrawSVGPlugin)
 
         gsap
         .timeline()
@@ -44,7 +44,7 @@ const Logo = () => {
             src = {bitmoji}
              alt = "dummy"
             />
-           <svg
+           {/* <svg
            width = "559pt"
            height = "897pt"
            version = "1.0"
@@ -63,7 +63,7 @@ const Logo = () => {
             
             </g>
 
-           </svg>
+           </svg> */}
        
         </div>
 
