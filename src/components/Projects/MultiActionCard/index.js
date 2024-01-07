@@ -54,19 +54,19 @@ const cardData = [
   },
   {
     title: 'Path-finding AI',
-    description: 'This project showcases path-finding algorithms using search methods, namely A* algorithm. This project mainly involves Javascript.',
+    description: 'This project showcases path-finding using search methods, namely A*,BFS, Weighted A* algorithm. This project mainly involves Javascript.',
     image: labyrinth,
     link: 'https://github.com/Arushi818/Path-finding-AI',
   },
   {
     title: 'Connect-4',
-    description: 'Connect-4 game that includes several fine tuning options and the option to play against an AI.This project mainly involves Javascript.',
+    description: 'Connect-4 game that includes options for players to choose the AI\'s algorithm and the option to play against another human.This project mainly involves Javascript.',
     image: connect4,
     link: 'https://github.com/Arushi818/Connect-4', 
   },
   {
     title: 'Self-solving Sudoku',
-    description: 'Self solving sudoku game that uses evolutionary algorithm to solve the game.This project mainly involves Javascript.',
+    description: 'Self solving sudoku game that uses genetic algorithm to solve the game. The UI provides fine tuning options. This project mainly involves Javascript.',
     image: sudoku,
     link: 'https://github.com/Arushi818/self-solving-sudoku',
   }
